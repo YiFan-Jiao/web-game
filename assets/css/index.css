@@ -1,0 +1,63 @@
+@import url("./reset.css");
+
+main {
+    height: 100vh;
+    background-color: #FF00FF;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.flax-center {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.play-again {
+    padding: 5px 25px;
+    background-color: #fff;
+    color: #FF00FF;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 7px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.mainbox {
+    height: 500px;
+    width: 500px;
+    border-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.guess-time {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.big-num {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #FF00FF;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.point-out {
+    background-color: #9A009A;
+    color: #fff;
+    padding: 10px 55px;
+    font-size: 30px;
+    border-radius: 10px;
+}
