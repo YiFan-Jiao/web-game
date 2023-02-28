@@ -1,18 +1,18 @@
 'use strict'
 
 const inputNum = document.querySelector('.big-num');
-//const xxx = document.querySelector('.change-num');
+let changeNum = document.querySelector('.change-num');
 const tryBtn = document.querySelector('.try-buttom');
 const flexResult = document.querySelector('.point-out');
 
 const playAgain = document.querySelector('.play-again');
 
 let oneNum = Math.floor(Math.random() * (50 - 1)) + 1;
-//let xxx.innerText = 0;
+changeNum.innerText = 0;
 console.log(oneNum);
 
 tryBtn.addEventListener('click', () => {
-    //n++;
+    changeNum.innerText++;
     if (isNaN(inputNum.value.trim()) || inputNum.value.trim() === '') {
         flexResult.innerText = 'Enter the correct value'
     } else { 
@@ -27,6 +27,7 @@ tryBtn.addEventListener('click', () => {
 });
 
 playAgain.addEventListener('click', () => {
+    changeNum.innerText = 0;
     oneNum = Math.floor(Math.random() * (50 - 1)) + 1;
     console.log(oneNum);
 });
