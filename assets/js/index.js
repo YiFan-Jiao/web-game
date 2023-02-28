@@ -9,6 +9,7 @@ const playAgain = document.querySelector('.play-again');
 
 let oneNum = Math.floor(Math.random() * (50 - 1)) + 1;
 //let xxx.innerText = 0;
+console.log(oneNum);
 
 tryBtn.addEventListener('click', () => {
     //n++;
@@ -27,4 +28,5 @@ tryBtn.addEventListener('click', () => {
 
 playAgain.addEventListener('click', () => {
     oneNum = Math.floor(Math.random() * (50 - 1)) + 1;
+    console.log(oneNum);
 });
