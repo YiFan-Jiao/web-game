@@ -54,10 +54,22 @@ main {
     font-weight: 600;
 }
 
+.try-buttom {
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #f5f5dc;
+}
+
 .point-out {
     background-color: #9A009A;
     color: #fff;
     padding: 10px 55px;
     font-size: 30px;
     border-radius: 10px;
+}
+
+.change-num {
+    display:inline;
 }
